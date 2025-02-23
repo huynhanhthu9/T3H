@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-between; /* Đưa 2 phần tử về 2 bên */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 100vh;
+    background-color: #fff;
+}
+.container {
+    width: 800px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    
+}
+.left h1 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.left p {
+    font-size: 14px;
+    color: gray;
+}
+
+.right {
+    text-align: right;
+    font-size: 14px;
+    color: gray;
+}
+
+hr {
+    height: 5px; /* Tăng độ dày */
+    background-color: black; /* Màu đen */
+    border: none; /* Loại bỏ viền mặc định */
+}
+ul {
+    padding-left: 30px;
+}
+table {
+    width: 100%;
+    border-collapse: none;
+    margin-top: 10px;
+    background: #fff;
+}
+th, td {
+    padding: 10px;
+}
