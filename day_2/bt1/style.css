@@ -1,0 +1,22 @@
+.blog-container {
+    max-width: 800px; /* Giới hạn chiều rộng tối đa của phần tử là 800px */
+    background: white; /* Đặt nền màu trắng */
+    padding: 20px; /* Tạo khoảng cách bên trong phần tử */
+    border-radius: 10px; /* Bo tròn các góc với bán kính 10px */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng đổ bóng nhẹ cho khung */
+    border: 1px solid #ddd; /* Viền màu xám nhạt với độ dày 1px */
+}
+
+img {
+    width: 600;
+    height: 400;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}

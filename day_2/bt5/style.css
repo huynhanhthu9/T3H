@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;  
+    padding: 50px;
+    font-family: Arial, sans-serif;
+    background-color: #6eccf144
+}
+.home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 5px 10px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(190, 67%, 4%);
+    background-size: cover;
+}
+.register-form button {
+    background-color: #009688;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.content {
+    Width: 100%;
+    height: 500px;
+    display: flex;
+    flex: 1;
+    padding: 30px;
+    border: 2px solid black;
+    
+}
+.content-left {
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    word-wrap: break-word; /* Đảm bảo chữ không tràn khung */
+}
+h1 {
+    color: hsl(246, 56%, 46%);
+    margin: 30px;
+}
+h3 {
+    background-color: #00c3ff;
+    color: white;
+    padding: 10px;
+    margin: 300px auto;
+    display: inline-block;
+}
+.content-right {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid black;
+}

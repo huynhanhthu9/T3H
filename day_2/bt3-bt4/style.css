@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+/* Định dạng cho thanh điều hướng */
+.navbar {
+    position: relative;
+    background-color: #807e7e;
+    overflow: hidden;
+}
+/* Định dạng cho các mục trong thanh điều hướng */
+.navbar a {
+    display: block;
+    color: white;
+    text-align : center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+}
+.navbar a:hover {
+    background-color: #575757;
+}
+/* bài tập 4 */
+.container {
+    position: relative;
+    width: 500px;
+    height: 400px;
+}
+ /* Định dạng các ô */
+ .box {
+    width: 120px;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+    border-radius: 10px;
+}
+/* Ô trung tâm */
+.center {
+    background-color: #ffe4b5;
+    color: black;
+    border: 2px solid orange;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Các ô xung quanh */
+.m1 { background-color: #64a600; left: 10%; top: 30%; }
+.m2 { background-color: #008000; left: 50%; top: 5%; transform: translateX(-50%); }
+.m3 { background-color: #1e90ff; right: 10%; top: 30%; }
+.m4 { background-color: #8b0000; right: 10%; bottom: 30%; }
+.m5 { background-color: #d10066; left: 50%; bottom: 5%; transform: translateX(-50%); }
+.m6 { background-color: #0000ff; left: 10%; bottom: 30%; }
